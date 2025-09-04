@@ -1,4 +1,4 @@
-FROM alpine:latest as base
+FROM alpine:latest AS base
 RUN apk add --no-cache openjdk17
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 ENV PATH=$JAVA_HOME/bin:$PATH
